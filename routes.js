@@ -6,4 +6,11 @@ router.get('/', (req, res) => {
   res.render('index', { title: 'Home' });
 });
 
+
+// TEST ERROR vv
+// router.get('/', (req, res) => {
+//   throw new Error('This is a test error!');
+//   res.render('index', { title: 'Home' });
+// });
+
 module.exports = router;
