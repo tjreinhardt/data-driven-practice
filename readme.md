@@ -31,3 +31,7 @@ in psql
 npx dotenv sequelize db:seed:all
 
 to confirm the seeding, log into psql and run: select * from "Books";
+
+
+npm install csurf@^1.0.0
+npm install cookie-parser@^1.0.0
